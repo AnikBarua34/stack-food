@@ -1,0 +1,164 @@
+
+[
+    {
+        "name": "Food1",
+        "image":"./foods/food1.PNG",
+        "oldPrice":"34.00",
+        "newPrice": "34.00",
+        "rating":"4.5"
+    },
+    {
+        "name": "Food2",
+        "image":"./foods/fd2.PNG",
+        "oldPrice":"34.00",
+        "newPrice": "34.00",
+        "rating":"4.5"
+    },
+    {
+        "name": "Food3",
+        "image":"./foods/fd3.PNG",
+        "oldPrice":"34.00",
+        "newPrice": "34.00",
+        "rating":"4.5"
+    },
+    {
+        "name": "Food4",
+        "image":"./foods/fd4.PNG",
+        "oldPrice":"34.00",
+        "newPrice": "34.00",
+        "rating":"4.5"
+    },
+    {
+        "name": "Food5",
+        "image":"./foods/fd2.PNG",
+        "oldPrice":"34.00",
+        "newPrice": "34.00",
+        "rating":"4.5"
+    },
+    {
+        "name": "Food6",
+        "image":"./foods/fd3.PNG",
+        "oldPrice":"34.00",
+        "newPrice": "34.00",
+        "rating":"4.5"
+    },
+    {
+        "name": "Food7",
+        "image":"./foods/fd4.PNG",
+        "oldPrice":"34.00",
+        "newPrice": "34.00",
+        "rating":"4.5"
+    },
+    {
+        "name": "Food8",
+        "image":"./foods/fd2.PNG",
+        "oldPrice":"34.00",
+        "newPrice": "34.00",
+        "rating":"4.5"
+    },
+    {
+        "name": "Food9",
+        "image":"./foods/fd3.PNG",
+        "oldPrice":"34.00",
+        "newPrice": "34.00",
+        "rating":"4.5"
+    },
+    {
+        "name": "Food10",
+        "image":"./foods/fd4.PNG",
+        "oldPrice":"34.00",
+        "newPrice": "34.00",
+        "rating":"4.5"
+    },
+    {
+        "name": "Food11",
+        "image":"./foods/fd2.PNG",
+        "oldPrice":"34.00",
+        "newPrice": "34.00",
+        "rating":"4.5"
+    }, {
+        "name": "Food12",
+        "image":"./foods/fd3.PNG",
+        "oldPrice":"34.00",
+        "newPrice": "34.00",
+        "rating":"4.5"
+    }, {
+        "name": "Food13",
+        "image":"./foods/fd4.PNG",
+        "oldPrice":"34.00",
+        "newPrice": "34.00",
+        "rating":"4.5"
+    }, {
+        "name": "Food14",
+        "image":"./foods/fd2.PNG",
+        "oldPrice":"34.00",
+        "newPrice": "34.00",
+        "rating":"4.5"
+    }, {
+        "name": "Food15",
+        "image":"./foods/fd3.PNG",
+        "oldPrice":"34.00",
+        "newPrice": "34.00",
+        "rating":"4.5"
+    }, {
+        "name": "Food16",
+        "image":"./foods/fd3.PNG",
+        "oldPrice":"34.00",
+        "newPrice": "34.00",
+        "rating":"4.5"
+    }, {
+        "name": "Food17",
+        "image":"./foods/fd4.PNG",
+        "oldPrice":"34.00",
+        "newPrice": "34.00",
+        "rating":"4.5"
+    }, {
+        "name": "Food18",
+        "image":"./foods/fd2.PNG",
+        "oldPrice":"34.00",
+        "newPrice": "34.00",
+        "rating":"4.5"
+    }, {
+        "name": "Food19",
+        "image":"./foods/fd3.PNG",
+        "oldPrice":"34.00",
+        "newPrice": "34.00",
+        "rating":"4.5"
+    }, {
+        "name": "Food20",
+        "image":"./foods/fd4.PNG",
+        "oldPrice":"34.00",
+        "newPrice": "34.00",
+        "rating":"4.5"
+    }, {
+        "name": "Food21",
+        "image":"./foods/fd2.PNG",
+        "oldPrice":"34.00",
+        "newPrice": "34.00",
+        "rating":"4.5"
+    }, {
+        "name": "Food22",
+        "image":"./foods/fd3.PNG",
+        "oldPrice":"34.00",
+        "newPrice": "34.00",
+        "rating":"4.5"
+    }, {
+        "name": "Food23",
+        "image":"./foods/fd4.PNG",
+        "oldPrice":"34.00",
+        "newPrice": "34.00",
+        "rating":"4.5"
+    }, {
+        "name": "Food24",
+        "image":"./foods/fd2.PNG",
+        "oldPrice":"34.00",
+        "newPrice": "34.00",
+        "rating":"4.5"
+    }, {
+        "name": "Food25",
+        "image":"./foods/fd3.PNG",
+        "oldPrice":"34.00",
+        "newPrice": "34.00",
+        "rating":"4.5"
+    }
+]
