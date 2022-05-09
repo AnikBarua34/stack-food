@@ -1,16 +1,11 @@
 import * as React from 'react';
-
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import Badge from '@mui/material/Badge';
-import MenuItem from '@mui/material/MenuItem';
-import Menu from '@mui/material/Menu';
-
 import navbarPic from '../../../images/navbar.icon.PNG';
-import MoreIcon from '@mui/icons-material/MoreVert';
 import  NotificationsIcon  from '@mui/icons-material/Notifications';
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import FavoriteIcon from '@mui/icons-material/Favorite';
@@ -18,15 +13,21 @@ import LockIcon from '@mui/icons-material/Lock';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import Container from '@mui/material/Container';
 
+
 export default function Navbar() {
+  const handleCategories = () =>{
+    alert('More Options Comming Soon')
+  }
   
   return (
-    <Box>  
+    <>
       <AppBar 
       style={{ background: 'white'}}
-      position="fixed">
+      position="sticky">
+        
           <Container>
-        <Toolbar>
+          
+        <Toolbar sx={{justifyContent:'space-between'}}>
           <Typography
             variant="h6"
             noWrap
@@ -39,15 +40,16 @@ export default function Navbar() {
             variant="h6"
             noWrap
             component="div"
-            sx={{marginLeft:'15px',color:'black',fontSize:'16px',fontFamily:'Signika Negative',fontWeight:'400', display: { xs: 'none', sm: 'block' } }}
+            sx={{cursor:"pointer",marginLeft:'15px',color:'black',fontSize:'16px',fontFamily:'Signika Negative',fontWeight:'400', display: { xs: 'none', sm: 'block' } }}
           >
             Home
           </Typography>
           <Typography
+          onClick={handleCategories}
             variant="h6"
             noWrap
             component="div"
-            sx={{marginLeft:'15px',color:'black',fontSize:'16px',fontFamily:'Signika Negative',fontWeight:'400', display: { xs: 'none', sm: 'block' } }}
+            sx={{cursor:"pointer",marginLeft:'15px',color:'black',fontSize:'16px',fontFamily:'Signika Negative',fontWeight:'400', display: { xs: 'none', sm: 'block' } }}
           >
             Categories
             <IconButton sx={{ p: 0 }}>
@@ -55,10 +57,11 @@ export default function Navbar() {
             </IconButton>
           </Typography>
           <Typography
+           onClick={handleCategories}
             variant="h6"
             noWrap
             component="div"
-            sx={{marginLeft:'15px',color:'black',fontSize:'16px',fontFamily:'Signika Negative',fontWeight:'400', display: { xs: 'none', sm: 'block' } }}
+            sx={{cursor:"pointer",marginLeft:'15px',color:'black',fontSize:'16px',fontFamily:'Signika Negative',fontWeight:'400', display: { xs: 'none', sm: 'block' } }}
           >
             Restaurants
             <IconButton sx={{ p: 0 }}>
@@ -89,7 +92,7 @@ export default function Navbar() {
                 <FavoriteIcon sx={{color:"black"}} />
               </Badge>
             </IconButton>
-            <Typography sx={{backgroundColor:"#EF7822",marginLeft:"5px" ,borderRadius:"5px",display:"flex",alignItems: "center",padding:"10px 15px",height:"20px",width:"80px"}}>
+            <Typography onClick={handleCategories} sx={{cursor:"pointer",backgroundColor:"#EF7822",marginLeft:"5px" ,borderRadius:"5px",display:"flex",alignItems: "center",padding:"10px 15px",height:"20px",width:"80px"}}>
                 <LockIcon/>
                 Sign in
             </Typography>
@@ -97,6 +100,7 @@ export default function Navbar() {
         </Toolbar>
         </Container>
       </AppBar>
-    </Box>
+    
+    </>
   );
 }

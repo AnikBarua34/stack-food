@@ -1,164 +1,199 @@
 
 [
     {
-        "name": "Food1",
+        "name": "Salmon Avocado Sushi",
         "image":"./foods/food1.PNG",
-        "oldPrice":"34.00",
-        "newPrice": "34.00",
-        "rating":"4.5"
+        "oldPrice":"$ 34.00",
+        "newPrice": "$ 34.00",
+        "rating":"4.5",
+        "note":"20% OFF",
+        "type": "Hungry Puppets"
     },
     {
-        "name": "Food2",
+        "name": "Salmon Avocado Sushi",
         "image":"./foods/fd2.PNG",
-        "oldPrice":"34.00",
-        "newPrice": "34.00",
-        "rating":"4.5"
+        "oldPrice":"$ 34.00",
+        "newPrice": "$ 34.00",
+        "rating":"4.5",
+        "note":"New",
+        "type": "Hungry Puppets"
     },
     {
-        "name": "Food3",
+        "name": "Salmon Avocado Sushi",
         "image":"./foods/fd3.PNG",
-        "oldPrice":"34.00",
-        "newPrice": "34.00",
-        "rating":"4.5"
+        "oldPrice":"$ 34.00",
+        "newPrice": "$ 34.00",
+        "rating":"4.5",
+        "note":"Populer",
+        "type": "Hungry Puppets"
     },
     {
-        "name": "Food4",
+        "name": "Salmon Avocado Sushi", 
         "image":"./foods/fd4.PNG",
-        "oldPrice":"34.00",
-        "newPrice": "34.00",
-        "rating":"4.5"
+        "oldPrice":"$ 34.00",
+        "newPrice": "$ 34.00",
+        "rating":"4.5",
+        "note":"New",
+        "type": "Hungry Puppets"
     },
     {
-        "name": "Food5",
+        "name": "Salmon Avocado Sushi",
         "image":"./foods/fd2.PNG",
-        "oldPrice":"34.00",
-        "newPrice": "34.00",
-        "rating":"4.5"
+        "oldPrice":"$ 34.00",
+        "newPrice": "$ 34.00",
+        "rating":"4.5",
+        "note":"20% OFF",
+        "type": "Hungry Puppets"
     },
     {
-        "name": "Food6",
+        "name": "Salmon Avocado Sushi",
         "image":"./foods/fd3.PNG",
-        "oldPrice":"34.00",
-        "newPrice": "34.00",
-        "rating":"4.5"
+        "oldPrice":"$ 34.00",
+        "newPrice": "$ 34.00",
+        "rating":"4.5",
+        "note":"20% OFF",
+        "type": "Hungry Puppets"
     },
     {
-        "name": "Food7",
+        "name": "Salmon Avocado Sushi",
         "image":"./foods/fd4.PNG",
-        "oldPrice":"34.00",
-        "newPrice": "34.00",
-        "rating":"4.5"
+        "oldPrice":"$ 34.00",
+        "newPrice": "$ 34.00",
+        "rating":"4.5",
+        "note":"New",
+        "type": "Hungry Puppets"
     },
     {
-        "name": "Food8",
+        "name": "Salmon Avocado Sushi",
         "image":"./foods/fd2.PNG",
-        "oldPrice":"34.00",
-        "newPrice": "34.00",
-        "rating":"4.5"
+        "oldPrice":"$ 34.00",
+        "newPrice": "$ 34.00",
+        "rating":"4.5",
+        "note":"New",
+        "type": "Hungry Puppets"
     },
     {
-        "name": "Food9",
+        "name": "Salmon Avocado Sushi",
         "image":"./foods/fd3.PNG",
-        "oldPrice":"34.00",
-        "newPrice": "34.00",
-        "rating":"4.5"
+        "oldPrice":"$ 34.00",
+        "newPrice": "$ 34.00",
+        "rating":"4.5",
+        "note":"20% OFF",
+        "type": "Hungry Puppets"
     },
     {
-        "name": "Food10",
+        "name": "Salmon Avocado Sushi",
         "image":"./foods/fd4.PNG",
-        "oldPrice":"34.00",
-        "newPrice": "34.00",
-        "rating":"4.5"
+        "oldPrice":"$ 34.00",
+        "newPrice": "$ 34.00",
+        "rating":"4.5",
+        "note":"New",
+        "type": "Hungry Puppets"
     },
     {
         "name": "Food11",
         "image":"./foods/fd2.PNG",
-        "oldPrice":"34.00",
-        "newPrice": "34.00",
-        "rating":"4.5"
+        "oldPrice":"$ 34.00",
+        "newPrice": "$ 34.00",
+        "rating":"4.5",
+        "note":"New"
     }, {
         "name": "Food12",
         "image":"./foods/fd3.PNG",
-        "oldPrice":"34.00",
-        "newPrice": "34.00",
-        "rating":"4.5"
+        "oldPrice":"$ 4.00",
+        "newPrice": "$ 34.00",
+        "rating":"4.5",
+        "note":"New"
     }, {
         "name": "Food13",
         "image":"./foods/fd4.PNG",
-        "oldPrice":"34.00",
-        "newPrice": "34.00",
-        "rating":"4.5"
+        "oldPrice":"$ 34.00",
+        "newPrice": "$ 34.00",
+        "rating":"4.5",
+        "note":"New"
     }, {
         "name": "Food14",
         "image":"./foods/fd2.PNG",
-        "oldPrice":"34.00",
-        "newPrice": "34.00",
-        "rating":"4.5"
+        "oldPrice":"$ 34.00",
+        "newPrice": "$ 34.00",
+        "rating":"4.5",
+        "note":"New"
     }, {
         "name": "Food15",
         "image":"./foods/fd3.PNG",
-        "oldPrice":"34.00",
-        "newPrice": "34.00",
-        "rating":"4.5"
+        "oldPrice":"$ 34.00",
+        "newPrice": "$ 34.00",
+        "rating":"4.5",
+        "note":"New"
     }, {
         "name": "Food16",
         "image":"./foods/fd3.PNG",
-        "oldPrice":"34.00",
-        "newPrice": "34.00",
-        "rating":"4.5"
+        "oldPrice":"$ 34.00",
+        "newPrice": "$ 34.00",
+        "rating":"4.5",
+        "note":"New"
     }, {
         "name": "Food17",
         "image":"./foods/fd4.PNG",
-        "oldPrice":"34.00",
-        "newPrice": "34.00",
-        "rating":"4.5"
+        "oldPrice":"$ 34.00",
+        "newPrice": "$ 34.00",
+        "rating":"4.5",
+        "note":"New"
     }, {
         "name": "Food18",
         "image":"./foods/fd2.PNG",
-        "oldPrice":"34.00",
-        "newPrice": "34.00",
-        "rating":"4.5"
+        "oldPrice":"$ 34.00",
+        "newPrice": "$ 34.00",
+        "rating":"4.5",
+        "note":"New"
     }, {
         "name": "Food19",
         "image":"./foods/fd3.PNG",
-        "oldPrice":"34.00",
-        "newPrice": "34.00",
-        "rating":"4.5"
+        "oldPrice":"$ 34.00",
+        "newPrice": "$ 34.00",
+        "rating":"4.5",
+        "note":"New"
     }, {
         "name": "Food20",
         "image":"./foods/fd4.PNG",
-        "oldPrice":"34.00",
-        "newPrice": "34.00",
-        "rating":"4.5"
+        "oldPrice":"$ 34.00",
+        "newPrice": "$ 34.00",
+        "rating":"4.5",
+        "note":"New"
     }, {
         "name": "Food21",
         "image":"./foods/fd2.PNG",
-        "oldPrice":"34.00",
-        "newPrice": "34.00",
-        "rating":"4.5"
+        "oldPrice":"$ 34.00",
+        "newPrice": "$ 34.00",
+        "rating":"4.5",
+        "note":"New"
     }, {
         "name": "Food22",
         "image":"./foods/fd3.PNG",
-        "oldPrice":"34.00",
-        "newPrice": "34.00",
-        "rating":"4.5"
+        "oldPrice":"$ 34.00",
+        "newPrice": "$ 34.00",
+        "rating":"4.5",
+        "note":"New"
     }, {
         "name": "Food23",
         "image":"./foods/fd4.PNG",
-        "oldPrice":"34.00",
-        "newPrice": "34.00",
-        "rating":"4.5"
+        "oldPrice":"$ 34.00",
+        "newPrice": "$ 34.00",
+        "rating":"4.5",
+        "note":"New"
     }, {
         "name": "Food24",
         "image":"./foods/fd2.PNG",
-        "oldPrice":"34.00",
-        "newPrice": "34.00",
-        "rating":"4.5"
+        "oldPrice":"$ 34.00",
+        "newPrice": "$ 34.00",
+        "rating":"4.5",
+        "note":"New"
     }, {
         "name": "Food25",
         "image":"./foods/fd3.PNG",
-        "oldPrice":"34.00",
-        "newPrice": "34.00",
-        "rating":"4.5"
+        "oldPrice":"$ 34.00",
+        "newPrice": "$ 34.00",
+        "rating":"4.5",
+        "note":"New"
     }
 ]

@@ -1,3 +1,4 @@
+/* pagination section  */
 .paginationBttns{
     width: 80%;
     height: 40px;
@@ -7,9 +8,10 @@
     text-decoration: none;
 }
 .paginationBttns a{
+    background-color: #F4F4F4;
     padding: 10px ;
     margin: 8px;
-    border-radius: 5px;
+    border-radius:5px;
     border: 1px solid #EF7822;
     /* color: #2b2eff; */
     cursor: pointer;
@@ -23,4 +25,117 @@
 .paginationActive a {
     color: white !important;
     background-color: #EF7822;
+}
+.paper{
+    overflow: hidden;
+}
+img{
+    transition: all 1s;
+}
+.paper:hover img{
+    transform: scale(1.1);
+}
+
+/* food section  */
+.backgroundFill{
+    background-color: #EF7822;
+    border-radius: 30px 0px 10px;
+    width: 60px;
+    height: 60px;
+    margin-left: 84px;
+    padding-bottom: -25px;
+    margin-top: 20px;
+}
+.backgroundEmpty{
+    background-color: #FFFFFF;
+    border: 1px solid #FFEBDD;
+    border-radius: 30px 0px 10px;
+    width: 60px;
+    height: 60px;
+    margin-left: 82px;
+    margin-top: 18px;
+
+}
+.arrowWhite{
+    filter: brightness(0) invert(1);
+    padding-top: 20px;
+}
+.arrowColor{
+    color: #EF7822;
+    padding-top: 20px;
+}
+.foodImage{
+    width:250px ;
+    height: 250px;
+}
+
+.foodName{
+font-family: 'Signika Negative';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+align-items: center;
+text-align: center;
+}
+.foodType{
+font-family: 'Signika Negative';
+font-weight: 400;
+font-size: 16px;
+/* identical to box height */
+align-items: center;
+text-align: center;
+color: #9B9B9B;
+}
+
+.nestedContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+    
+}
+.items1{
+    display: flex;
+    border: 1px solid #FFEBDD;
+    font-family: "Signika Negative";
+    font-weight:700;
+    font-size:16px;
+    line-height: 19.71px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.items2{
+    display: flex;
+    border: 1px solid #FFEBDD;
+    font-family: "Signika Negative";
+    font-weight:700;
+    font-size:16px;
+    line-height: 19.71px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.items3{
+    display: flex;
+    border: 1px solid #FFEBDD;
+    font-family: "Signika Negative";
+    font-weight:700;
+    font-size:16px;
+    line-height: 19.71px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .foodImage{
+        width:150px ;
+        height: 150px;
+    }
+    .nestedContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 15px;
+        
+    }
 }

@@ -6,21 +6,20 @@ import Container from '@mui/material/Container';
 import banner1 from '../../../images/banner pic.PNG';
 import banner2 from '../../../images/banner pic 2.PNG';
 import cart from '../../../images/foods/cart.png';
-import AppBar from '@mui/material/AppBar';
-import  Typography  from '@mui/material/Typography';
+import './Banner.css';
 const Banner = () => {
     return (
         <>
         <Container
-        sx={{marginTop:'80px'}}
+        sx={{marginTop:'20px'}}
         >
     <Box sx={{ flexGrow: 1 }}>
       <Grid container spacing={10}>
-        <Grid item xs={6}>
-     <img width="600px" height="300px" src={banner1} alt="banner1" />
+        <Grid className='grid' item xs={12} lg={6}>
+     <img className='banner1' src={banner1} alt="banner1" />
         </Grid>
-        <Grid item xs={6}>
-        <img width="600px" height="300px" src={banner2} alt="banner2" />
+        <Grid item xs={12} lg={6}>
+        <img className='banner2' src={banner2} alt="banner2" />
         </Grid>
        
       </Grid>
@@ -28,11 +27,10 @@ const Banner = () => {
     </Box>
     
     <img
-        style={{position:"fixed",marginTop:'-90px',marginLeft:'1160px'}}
+    className='cart'
         src={cart} alt="cart"
-        width="90px" height="64px"
         />
-    <img width="1200px" height="160px" src={banner3} alt="banner3" />
+    <img className='banner3' src={banner3} alt="banner3" />
     </Container>
         </>
   );
